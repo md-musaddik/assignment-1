@@ -1,4 +1,7 @@
 *{margin:0;padding:0;}
+body{
+    background-color: rgba(213, 233, 255, 0.321);
+}
 /* shared style */
 .raleway-normal{
   font-family: "Raleway", sans-serif;
@@ -111,3 +114,93 @@ main section{
     font-weight: bolder;
     font-style: normal;
 }
+
+/* User review  */
+.user-review-title{
+    text-align:center;
+    font-size: 42px;
+    margin-bottom:35px;
+}
+.cards-container{
+    display: flex;
+    gap:20px;
+    
+}
+.card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    padding:10px;
+    background-color: #fff;
+}
+.stars{
+    margin-bottom:10px;
+}
+.card-title{
+    margin-bottom:10px;
+}
+.card-description{
+    margin-bottom:20px;
+}
+.card .user-img{
+    border-radius:50%;
+}
+.card .user{
+    display:flex;
+    gap:10px;
+}
+.user-details p{
+    color:#a7a0a0e5;
+}
+.user-details .r-name{
+    color:#3e3b3b;
+}
+
+/* Ready to focus section  */
+.ready-focus{
+    background-color: #fff;
+    padding:71px 150px;
+    text-align:center;
+    border-radius:14px;
+}
+.ready-focus h2,p,button{
+    margin-bottom:20px;
+}
+.ready-focus img{
+    border-radius:48px;
+}
+
+/* get in touch  */
+.get-in-touch{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.git-title{
+    font-size:80px;
+    font-weight:700;
+    
+}
+.git-form{
+    width:450px;
+}
+.git-form input{
+    width:408px;
+    padding:20px;
+    border:none;
+    border-radius:10px;
+    
+}
+textarea{
+     width:408px;
+    padding:20px;
+    border:none;
+    border-radius:10px;
+    margin-bottom:15px;
+}
+label{
+    font-weight: 700;
+    display: block;
+    margin-top:10px;
+}
+
+
