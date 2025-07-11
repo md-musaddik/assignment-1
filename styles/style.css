@@ -204,3 +204,39 @@ label{
 }
 
 
+/* Footer  */
+
+footer{
+    text-align:center;
+    background-color: #fff;
+    padding:105px 0;
+    
+    
+}
+.footer-title{
+    font-size:100px;
+    color:#4E47FF;
+    padding-bottom:20px;
+}
+footer p{
+    width:540px;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.footer-nav{
+    width:510px;
+    margin:0 auto;
+    
+}
+.footer-nav ul{
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-nav ul li{
+    list-style-type: none;
+}
+.footer-nav a{
+    text-decoration: none;
+    color:#8987A1;
+}
