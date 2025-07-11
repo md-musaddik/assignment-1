@@ -22,6 +22,14 @@ body{
     font-size: 16px;
     border:0;
     border-radius:10px;
+    cursor:pointer;
+    transition: 0.3s;
+}
+.primary-btn:hover{
+    background-color: #fff;
+    color:black;
+    border:1px solid black;
+    padding:11px 35px;
 }
 /* header */
 header{
@@ -45,6 +53,7 @@ header{
 .nav-logo{
     color:#4E47FF;
     font-size:34px;
+    font-weight: 800;
 }
 
 /* header-section  */
@@ -217,6 +226,7 @@ footer{
     font-size:100px;
     color:#4E47FF;
     padding-bottom:20px;
+    font-weight:800;
 }
 footer p{
     width:540px;
